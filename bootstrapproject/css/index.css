@@ -1,0 +1,104 @@
+body{
+    margin : 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h4, p{
+    margin: 0;
+}
+/* header */
+.container__header{
+    padding-left: 1.5rem!important;
+    padding-right: 1.5rem!important;
+    padding: 1rem!important;
+    margin-bottom: 1rem!important;
+    align-items: center!important;
+}
+.header__center a{
+    padding: .5rem!important;
+}
+/* header */
+/* content top */
+.container__content{
+    max-width: 700px;
+    margin-left:auto!important;
+    margin-right:auto!important;
+    padding-top: 3rem!important;
+    padding-bottom: 1.5rem!important;
+    padding-left: 1rem!important;
+    padding-right: 1rem!important;
+}
+/* content top */
+/* card */
+
+
+
+.btn__size{
+    width : 100%;
+}
+.card-header{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+.card__content{
+    margin-bottom: 1.5rem!important;
+    margin-top: 1rem!important;
+}
+.card__body__size{
+    margin-bottom: 1.5rem!important;
+    margin-top: 1.5rem!important;
+}
+/* card */
+/* footer */
+.photo__bootstrap img{
+    width:24px;
+    height:24px;
+    margin-bottom: .5rem!important;
+}
+.container__footer{
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+}
+/* footer */
+/* other */
+.container__card__and__footer{
+    max-width: 960px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto!important;
+    margin-right: auto!important; 
+}
+.shadow__line{
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    border-bottom: 1px solid #dee2e6!important;
+}
+.size__shadow__line{
+    margin-top: 3rem!important;
+    margin-bottom: 3rem!important;
+}
+
+.text__align__center{
+    text-align: center;
+}
+
+.display__block{
+    display: block!important;
+}
+.list__unstyle{
+    padding-left: 0;
+    list-style: none;
+}
+.text__list{
+    color: #6c757d!important;
+}
+
+/* other */
+/* media<=768 */
+@media (max-width: 767.98px) {
+    .container__header{
+        text-align: center;
+    }
+    .card__left{
+        width: 100%;
+    }
+
+}
+/* media<=768 */
